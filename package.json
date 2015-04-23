@@ -1,0 +1,30 @@
+{
+  "name": "scrat-combo",
+  "version": "1.0.0",
+  "description": "Scrat combo request server-side middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scrat-team/scrat-combo.git"
+  },
+  "keywords": [
+    "scrat",
+    "combo",
+    "middleware"
+  ],
+  "author": "switer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scrat-team/scrat-combo/issues"
+  },
+  "homepage": "https://github.com/scrat-team/scrat-combo",
+  "dependencies": {
+    "async": "^0.9.0"
+  },
+  "devDependencies": {
+    "express": "^4.12.3"
+  }
+}
