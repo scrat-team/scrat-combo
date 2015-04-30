@@ -83,7 +83,8 @@ module.exports = function (options) {
                 req.originalUrl.slice(i + 2).split(',');
 
         comb(files, function (resources) {
-            res.type('js');
+            ext = path.extname(files[0]);
+            ext && res.type(ext.slice(1));
             res.send(resources.join('\n'));
         }, function (err) {
             err = err || {};
